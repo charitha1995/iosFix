@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+           id="fr.bamlab.iosfix"
+      version="1.0.0">
+    <name>bamlab-iosfix-plugin</name>
+    <description>iOS configuration fix</description>
+	<license>Apache 2.0</license>
+    <keywords>iOS, fix</keywords>
+	
+    <platform name="ios">
+      <config-file target="*-Info.plist" parent="UIRequiresFullscreen">
+          <true/> 
+      </config-file>
+    </platform>
+</plugin> 
